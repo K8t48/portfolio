@@ -4994,6 +4994,8 @@ a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
 button.bg-light:focus {
   background-color: #dae0e5 !important; }
+ .bg-primary-23 {
+    background-color: #C6E6DE !important; }
 
 .bg-dark {
   background-color: #212529 !important; }
