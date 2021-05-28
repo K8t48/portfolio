@@ -41,7 +41,7 @@ html {
   font-family: Helvetica;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+  -webkit-tap-highlight-color: rgba(228, 159, 159, 0.945); }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
@@ -4945,7 +4945,7 @@ a.close.disabled {
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #2c4396 !important; }
+  background-color: #D3EFE8 !important; }
 
 .bg-secondary {
   background-color: #6c757d !important; }
@@ -4954,6 +4954,14 @@ a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
 button.bg-secondary:focus {
   background-color: #545b62 !important; }
+
+  .bg-forth {
+    background-color: #FFEBA5 !important; }
+  
+  a.bg-forth:hover, a.bg-forth:focus,
+  button.bg-forth:hover,
+  button.bg-forth:focus {
+    background-color: #FCF1CD !important; }
 
 .bg-success {
   background-color: #28a745 !important; }
@@ -4993,9 +5001,7 @@ button.bg-danger:focus {
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
 button.bg-light:focus {
-  background-color: #dae0e5 !important; }
- .bg-primary-23 {
-    background-color: #C6E6DE !important; }
+  background-color: #D5D5D5 !important; }
 
 .bg-dark {
   background-color: #212529 !important; }
@@ -5006,12 +5012,15 @@ button.bg-dark:focus {
   background-color: #0a0c0d !important; }
 
 .bg-primary-2 {
-  background-color: #FF8E88 !important; }
+  background-color: #F1B4AA !important; }
+
+  .bg-primary-23 {
+    background-color: #C6E6DE !important; }
 
 a.bg-primary-2:hover, a.bg-primary-2:focus,
 button.bg-primary-2:hover,
 button.bg-primary-2:focus {
-  background-color: #ff5e55 !important; }
+  background-color: #F9DDD8 !important; }
 
 .bg-primary-3 {
   background-color: #fff !important; }
@@ -8671,7 +8680,7 @@ strong {
 
 .highlight {
   display: inline;
-  background: rgba(255, 142, 136, 0.2); }
+  background: rgba(255, 142, 136, 0.548); }
 
 .alert {
   word-break: break-word; }
@@ -9937,7 +9946,7 @@ body.compensate-for-scrollbar {
   left: 0;
   outline: none;
   position: fixed;
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: solid;
   top: 0;
   touch-action: manipulation;
   transform: translateZ(0);
@@ -10514,7 +10523,7 @@ body.compensate-for-scrollbar {
   padding: 2px 2px 4px;
   position: absolute;
   right: 0;
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: solid;
   top: 0;
   width: 212px;
   z-index: 99995; }
@@ -11300,7 +11309,7 @@ https://flickity.metafizzy.co
 
 /* draggable */
 .flickity-enabled.is-draggable {
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: solid;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -11715,7 +11724,7 @@ https://flickity.metafizzy.co
     background: rgba(255, 250, 240, 0) !important; }
   .icon-round.bg-primary-2 {
     background: rgba(255, 142, 136, 0.1) !important; }
- .icon-round.bg-primary-3 {
+  .icon-round.bg-primary-3 {
     background: #FFEBA5 !important; }
   .icon-round.bg-white {
     background: rgba(255, 255, 255, 0.0) !important; }
